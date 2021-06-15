@@ -1,0 +1,66 @@
+body
+{
+	font-family: tahoma, sans-serif;
+	background: #121626;
+	color: #343D6C;
+	margin: 10px 150px;
+}
+
+header, footer 
+{
+	text-align: center;
+	background: #236AB9;
+	padding: 10px;
+}
+footer
+{
+	background:#190934;
+	
+}
+
+main
+{
+	padding: 1px;
+	background: #d4e4f7;
+}
+main, header, footer
+{
+	   
+	/*border: 1px solid #FBA90A;
+ */   padding: 10px;
+    box-shadow: 0 0 50px #FBA90A ;  
+}
+
+{
+	font-family: garamond, serif;
+}
+
+a
+{
+	text-decoration: none;	
+	font-weight: bold;
+}
+/* unvisited link */
+a:link
+{
+    color: #FBA90A;
+}
+
+/* visited link */
+a:visited 
+{
+    color: #FBA90A;
+}
+
+/* mouse over link */
+a:hover 
+{
+    color: #236AB9;
+}
+
+/* selected link */
+a:active 
+{
+color: blue;
+}
+

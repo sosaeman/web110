@@ -1,0 +1,146 @@
+
+span{
+font-family: 'Permanent Marker', cursive;
+position: relative;
+  z-index: 100;
+  top: 175px;
+  left: -5px;
+  font-size:30px;
+}
+
+h1
+{
+	text-shadow:2px 5px black;
+	 color:white;
+}
+
+
+.header{
+	position: relative;
+  z-index: 100;
+  top: 275px;
+  left: -5px;
+  font-size:30px;
+  background-color:rgba(255, 179, 128, 0.5);
+  color:black;
+}
+ .sub{
+
+
+font-family: 'Permanent Marker', cursive;
+position: relative;
+  z-index: 1000;
+  top: 200px;
+  left: 600px;
+  font-size:40px;
+}
+p{
+	font-family: 'Kaushan Script', cursive;
+font-size:25px;
+font-weight:bold;
+color:white;
+}
+header
+{
+	height:600px;
+	 background-image:url("tau2.jpg");
+	 background-size:cover;
+background-repeat:no-repeat;
+background-clip:padding-box;
+background-position:center;
+margin-top:-30px;
+}
+.parx2
+{
+background-image:url("../images/myhobby/play.jpg");
+	 min-height: 350px;
+	background-attachment:fixed;
+	 background-position:center ;
+	background-repeat:no-repeat;
+	background-size: auto; 
+	background-color:black;
+
+	margin-top:-40px;
+		
+}
+
+
+
+.parx1
+{
+background-image:url("images/myhobby/tauheader.png");
+	 min-height: 350px;
+	background-attachment:fixed;
+	 background-position:center ;
+	background-repeat:no-repeat;
+	background-size: auto; 
+	background-color:black;
+
+	margin-top:-40px;
+		
+}
+.parx {
+    /* The image used */
+    background-image: url("../images/myhobby/paint.png");
+
+    /* Set a specific height */
+    min-height: 350px; 
+
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: auto;
+	background-color:black;
+	margin-top:-40px;
+}
+header,footer
+{
+	text-align:center;
+	
+}
+footer
+{color:white;
+	background-color:black;
+}
+
+a{color: white;
+
+}
+
+.right
+{
+float:right;
+width:275px;
+height:275px;
+margin-right:20px;
+box-shadow:5px 5px 5px 1px white;
+border:2px solid black;
+}
+ .left
+{
+	float:left;
+	width:275px;
+height:275px;
+margin-left:20px;
+border:2px solid black;
+box-shadow:5px 5px 5px 1px white;
+ }
+
+#grid
+{
+	display:grid;
+	grid-template-columns:33.33% 33.33% 33.33%;
+	background-color:black;
+	height:300px;
+	margin-top:-40px;
+	
+}
+#gridp
+{
+	display:grid;
+	grid-template-columns:33.33% 33.33% 33.33%;
+	background-color:black;
+	height:300px;
+		margin-top:-40px;
+}

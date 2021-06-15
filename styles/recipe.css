@@ -1,0 +1,66 @@
+.carousel
+{ 
+margin-top:-25px;
+}
+
+.carousel-caption
+{ 
+
+	max-width: 100%;
+    width:100%;
+	height:30%;
+    background-color: black;
+	opacity:0.5;
+    left: 0;
+}
+
+.carousel-indicators .active
+{ 
+    background-color: #f00;
+}
+.carousel-control-prev-icon
+{
+	background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='%23f00' viewBox='0 0 8 8'%3E%3Cpath d='M5.25 0l-4 4 4 4 1.5-1.5-2.5-2.5 2.5-2.5-1.5-1.5z'/%3E%3C/svg%3E");
+}
+.carousel-control-next-icon
+{
+	background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='%23f00' viewBox='0 0 8 8'%3E%3Cpath d='M2.75 0l-1.5 1.5 2.5 2.5-2.5 2.5 1.5 1.5 4-4-4-4z'/%3E%3C/svg%3E");
+background-repeat:no-repeat;
+}
+nav
+{
+	color:white;
+	height:30px;
+}
+
+header,footer
+{
+	
+	text-align:center;
+	color:white;
+	background-color:grey;
+}
+
+
+img.validator
+{
+	width:10%;
+}
+main
+{
+	background-color:white; 
+}
+
+
+hr
+ {
+	height: 6px;
+	background: url(http://ibrahimjabbari.com/english/images/hr-12.png) repeat-x 0 0;
+    border: 0;
+}
+  
+ 
+ 
+
+
+

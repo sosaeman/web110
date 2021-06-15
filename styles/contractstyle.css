@@ -1,0 +1,25 @@
+body
+{
+background:#210934;
+text-align:center;
+margin: 10px 10%;
+
+}
+h1
+{
+	font-family:times new roman;
+}
+p
+{
+font-family: tahoma, sans-serif;
+}
+header, main, footer
+{
+	background-color:#F7F4D4;
+	padding: 10px 100px;
+	margin:0 10px;
+}	
+footer{
+	background-color:#F0EAAD;}
+b{
+	color:#7114B8;}

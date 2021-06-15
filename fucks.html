@@ -1,0 +1,54 @@
+<!doctypehtml>
+<html lang = "en">
+<head>
+<link rel="stylesheet" href="fucks.css">
+<meta charset=UTF-8">
+</head>
+<body>
+<object width="100%" height="400px" data ="sphere.html"></object>
+<figure class="g"></figure>
+<form name ="quiz">
+<h3>what is blue?</h3>
+<ul>
+<li><input type ="radio" name ="q1" value ="blue">blue</li>
+<li><input type ="radio" name ="q1" value ="red">red</li>
+<li><input type = "radio" name ="q1" value ="black">black</li>
+</ul>
+<input  value ="submit" type ="button" onclick ="check()">
+</form>
+
+<script>
+function check(){
+var q1 = document.quiz.q1.value;
+var correct= 0;
+
+if(q1 == "blue"){correct ++;} 
+
+var message = ["good", "bad"];
+ var score;
+ 
+ if(correct == 0){score = 1;}
+ if(correct == 1){score = 0;}
+ 
+ document.getElementById("message").innerHTML = message[score];
+ document.getElementById("number").innerHTML ="you got" + correct + "correct";
+ 
+}
+
+
+</script>
+
+</div>
+<div class="container " id = "result">
+
+	<div id = "after_submit" >
+		<figure id = "circle"class="circle">
+		<p id = "number"></p>
+		<p id = "message"></p>
+		</figure>
+		<!--<img class=" d-none d-md-block " id = "picture"-->
+	</div>
+ </div>
+</div> 
+</body>
+</html>
